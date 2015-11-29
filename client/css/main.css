@@ -94,6 +94,11 @@ div.contentBox p {
   margin: -40px 10px 5px 10px;
 }
 
+div.decorationImage img {
+  height: 300px;
+  width: 1050px;
+}
+
 
 
 #header {
