@@ -3,7 +3,7 @@ Router.configure({
 });
 
 Router.route('/', function() {
-	this.redirect("/about");
+	this.redirect("/immigration");
 });
 
 Router.route("/about", function() {
@@ -24,4 +24,16 @@ Router.route("/realestate", function() {
 
 Router.route("/leadership", function() {
 	this.render("leadership");
+});
+
+Router.route("/immigration", function() {
+	this.render("immigration");
+});
+
+Router.route("/finance", function() {
+	this.render("finance");
+});
+
+Router.route("/litigation", function() {
+	this.render("litigation");
 });
