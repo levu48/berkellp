@@ -7,6 +7,13 @@ body {
   background-color: #C7B38D;
 }
 
+#portrait {
+  float: left;
+  margin: 0 10px 0 5px;
+  width: 100px;
+  height: 100px;
+}
+
 #company-name {
 position: absolute; 
 left: 85px; 
